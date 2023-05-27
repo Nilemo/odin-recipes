@@ -1,18 +1,45 @@
 * {
-    background-color: white;
     font-family: sans-serif;
-    text-align: center;
-    list-style-position: inside;
+}
+body {
+    background-color: palegoldenrod;
 }
 
-ul {
-    text-align: left;
-    list-style-position: inside;
+h1 {
+    text-align: center;
+    padding: 8 0;
 }
+
+h3 {
+    text-align: center;
+}
+
 a {
     font-weight: bold;
     font-style: italic;
-    color: Black;
+    color: #BE9B64;
 }
 
+.lista-centrada {
+    /* display: inline-block;
+    text-align: left; */
+    width: 50%;
+    margin: auto;
+}
+.card {
+  width: 600px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
 
+.image {
+    margin: 0 auto;
+    display: block;
+    max-width: 500px;
+    height: auto;
+}
+
+.card .content {
+    padding: 8px;
+}
